@@ -6,6 +6,7 @@ export default function Home() {
     <View style={styles.container}>
       <Text style={styles.title}>Tela antes do login pusheen</Text>
       <Text>Pusheen melhro do mundo</Text>
+      
     </View>
   );
 }
