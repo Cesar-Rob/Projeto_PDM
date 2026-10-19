@@ -4,7 +4,8 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tela antes do login alterado</Text>
+      <Text style={styles.title}>Tela antes do login pusheen</Text>
+      <Text>Pusheen melhro do mundo</Text>
     </View>
   );
 }
