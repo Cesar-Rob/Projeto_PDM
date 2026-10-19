@@ -4,7 +4,7 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tela antes do login</Text>
+      <Text style={styles.title}>Tela antes do login alterado</Text>
     </View>
   );
 }
