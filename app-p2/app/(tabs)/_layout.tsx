@@ -6,7 +6,8 @@ export default function RootTabsLayout() {
     return (
         <Tabs screenOptions={{
             tabBarStyle: {
-                height: 60,
+                justifyContent: 'center',
+                height: 65,
                 backgroundColor: '#4A3228',
             },
             tabBarLabelStyle: {
@@ -48,6 +49,7 @@ export default function RootTabsLayout() {
             />
             <Tabs.Screen name="perfil"
                 options={{
+                    headerShown: false,
                     tabBarIcon: (({ color }) => (<Feather name="user" size={24} color={color} />))
                 }}
             />

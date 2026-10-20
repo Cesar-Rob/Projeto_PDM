@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 24,
         fontWeight: "bold",
+        fontFamily: 'Arial',
     },
     scroll: {
         padding: 10,
@@ -50,5 +51,6 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         paddingHorizontal: 10,
         marginVertical: 10,
+        fontFamily: 'Arial',
     }
 })
