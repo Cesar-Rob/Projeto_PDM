@@ -1,11 +1,13 @@
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import {useRouter} from "expo-router";
 
-export default function Home() {
+export default function Index() {
+  const router = useRouter();
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tela antes do login pusheen</Text>
-      <Text>Pusheen melhro do mundo</Text>
+      <Text onPress={()=>router.push('./auth/')}>Ir para tela login</Text>
       
     </View>
   );
