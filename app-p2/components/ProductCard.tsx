@@ -15,12 +15,12 @@ export default function ProductCard({ imagemSSR, nomeSSR, textoSSR, precoSSR, ro
 
 
     return (
-        <View style={styles.container}>
+        <View style={styles.container} >
             <Image
                 source={{ uri: imagemSSR }}
                 style={styles.imagem}
             />
-            <View style={{ flex: 1, paddingLeft: 10, justifyContent: 'center' }}>
+            <View style={{ flex: 1, paddingLeft: 5, justifyContent: 'center'}}>
                 <Text style={styles.nome}>{nomeSSR}</Text>
             <Text style={styles.texto}>{textoSSR}</Text>
             <Text style={styles.preco}>R$ {precoSSR}</Text>
@@ -37,28 +37,29 @@ const styles = StyleSheet.create({
         display: 'flex',
         //height: 150,
         paddingVertical: 10,
-        paddingHorizontal: 10,
+        paddingHorizontal: 30,
         backgroundColor: '#E8D9B8',
         borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'space-between',
         position: 'relative',
         flexDirection: 'row',
+        gap: 20,
     },
     imagem: {
             borderRadius: 10,
             width: '50%',
             height: '80%',
-            marginRight: 0
+            margin: 0
     },
     nome: {
         
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: 'bold',
         marginBottom: 5
     },
     texto: {
-        fontSize: 12,
+        fontSize: 14,
         color: '#666',
         marginBottom: 10
     },
@@ -69,6 +70,7 @@ const styles = StyleSheet.create({
         marginBottom: 10
     },
     botao: {
+        alignItems: 'center',
         backgroundColor: '#8B5A2B',
         paddingVertical: 5,
         paddingHorizontal: 10,

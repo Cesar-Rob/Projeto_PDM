@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tela Principal</Text>
+      <Text style={styles.title}>Objetos encontrados:</Text>
       <ScrollView
       showsVerticalScrollIndicator={false}
       contentContainerStyle={styles.scroll}
@@ -39,6 +39,6 @@ const styles = StyleSheet.create({
   },
   scroll: {
     padding: 10,
-    gap: 10,
+    gap: 0,
   }
 });
