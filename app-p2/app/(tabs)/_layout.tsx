@@ -15,16 +15,18 @@ export default function RootTabsLayout() {
             },
             tabBarActiveTintColor: '#C9962B',
             tabBarInactiveTintColor: '#E8D9B8',
-            
+
             headerStyle: {
                 backgroundColor: '#4A3228',
             },
             headerTitleStyle: {
-                fontSize: 20,
+                fontSize: 15,
                 fontFamily: 'Arial',
+
+
             },
             headerTintColor: '#C9962B',
-            
+
 
 
         }}
@@ -34,7 +36,7 @@ export default function RootTabsLayout() {
             <Tabs.Screen name="index"
                 options={{
                     tabBarIcon: (({ color }) => (<Feather name="home" size={24} color={color} />)),
-                    headerTitle: 'Home',
+                    headerTitle: 'Achados de 2026',
                     title: 'Tela Principal',
 
                 }}
