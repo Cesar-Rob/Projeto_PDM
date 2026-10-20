@@ -7,7 +7,7 @@ export default function Login() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tela de Login</Text>
-      <TouchableOpacity onPress={()=>router.push('./(tabs)/')} >
+      <TouchableOpacity onPress={()=>router.replace('./(tabs)/')} >
         Entrar no app
       </TouchableOpacity>
       

@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tela antes do login pusheen</Text>
-      <Text onPress={()=>router.push('./auth/')}>Ir para tela login</Text>
+      <Text onPress={()=>router.push('./auth')}>Ir para tela login</Text>
       
     </View>
   );
