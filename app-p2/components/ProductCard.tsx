@@ -20,36 +20,45 @@ export default function ProductCard({ imagemSSR, nomeSSR, textoSSR, precoSSR, ro
                 source={{ uri: imagemSSR }}
                 style={styles.imagem}
             />
-            <Text style={styles.nome}>{nomeSSR}</Text>
+            <View style={{ flex: 1, paddingLeft: 10, justifyContent: 'center' }}>
+                <Text style={styles.nome}>{nomeSSR}</Text>
             <Text style={styles.texto}>{textoSSR}</Text>
             <Text style={styles.preco}>R$ {precoSSR}</Text>
             <TouchableOpacity style={styles.botao} onPress={()=> router.push(rotaSSR)}>
                 Saber Mais
             </TouchableOpacity>
+            </View>
+            
         </View>
     )
 }
 const styles = StyleSheet.create({
     container: {
-        width: 250,
-        height: 380,
-        padding: 20,
-        backgroundColor: '#fff',
+        display: 'flex',
+        //height: 150,
+        paddingVertical: 10,
+        paddingHorizontal: 10,
+        backgroundColor: '#E8D9B8',
         borderRadius: 10,
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        position: 'relative',
+        flexDirection: 'row',
     },
     imagem: {
-        width: 200,
-        height: 200,
-        marginBottom: 10
+            borderRadius: 10,
+            width: '50%',
+            height: '80%',
+            marginRight: 0
     },
     nome: {
+        
         fontSize: 18,
         fontWeight: 'bold',
         marginBottom: 5
     },
     texto: {
-        fontSize: 14,
+        fontSize: 12,
         color: '#666',
         marginBottom: 10
     },
@@ -60,9 +69,9 @@ const styles = StyleSheet.create({
         marginBottom: 10
     },
     botao: {
-        backgroundColor: '#007AFF',
-        paddingVertical: 10,
-        paddingHorizontal: 20,
+        backgroundColor: '#8B5A2B',
+        paddingVertical: 5,
+        paddingHorizontal: 10,
         borderRadius: 5
     },
 
