@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import {useRouter} from "expo-router";
+import ProductCard from "@/components/ProductCard";
 
 export default function Home() {
   const router = useRouter();
@@ -8,6 +9,13 @@ export default function Home() {
     <View style={styles.container}>
       <Text style={styles.title}>Tela Principal</Text>
       
+      <ProductCard
+      imagemSSR='https://images.tcdn.com.br/img/img_prod/608666/antiga_xicara_de_cafe_porcelana_vista_alegre_creme_e_ouro_20571_1_ec2e798fb565d07ea4b4501327c447ef.jpg'
+      nomeSSR='Xícara de Café'
+      textoSSR='Uma bela xícara de café feita de porcelana.'
+      precoSSR={29.90}
+      rotaSSR='/produtos/xicara'
+      />
       
     </View>
   );
