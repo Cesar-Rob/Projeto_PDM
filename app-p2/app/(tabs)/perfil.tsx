@@ -9,11 +9,11 @@ export default function Perfil() {
       {/* Header Profile Section */}
       <View style={styles.header}>
         <View style={styles.avatar}>
-          <Text style={styles.avatarText}>SR</Text>
+          <Text style={styles.avatarText}>RC</Text>
         </View>
         <View style={styles.userInfo}>
-          <Text style={styles.userName}>Sanmira Ranna</Text>
-          <Text style={styles.userRole}>COLECIONADORA DESDE 2026</Text>
+          <Text style={styles.userName}>Roberto Carlos</Text>
+          <Text style={styles.userRole}>COLECIONADOR MEGACHATO DESDE 2026</Text>
         </View>
       </View>
 

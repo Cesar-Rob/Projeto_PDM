@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
 
     container2: {
         margin: 5,
-        height: '50%',
+        height: 350,
         padding: 5,
         backgroundColor: '#E8D9B8',
         borderRadius: 10,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     },
     container3: {
         margin: 5,
-        height: '35%',
+        height: 200,
         backgroundColor: '#E8D9B8',
         borderRadius: 10,
         
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     },
     descr: {
         fontWeight: 'bold',
-        fontSize: 18,
+        fontSize: 19,
         justifyContent: 'center',
         marginVertical: 10,
         marginLeft: 10,
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     },
     descricao: {
         fontFamily: 'Arial',
-        fontSize: 23,
+        fontSize: 22,
         marginVertical: 10,
         marginLeft: 10,
 

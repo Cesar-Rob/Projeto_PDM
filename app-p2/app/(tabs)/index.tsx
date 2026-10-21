@@ -17,7 +17,7 @@ export default function Home() {
                     imagemSSR='https://images.tcdn.com.br/img/img_prod/608666/antiga_xicara_de_cafe_porcelana_vista_alegre_creme_e_ouro_20571_1_ec2e798fb565d07ea4b4501327c447ef.jpg'
                     nomeSSR='Xícara de Café'
                     textoSSR='Uma bela xícara de café feita de porcelana.'
-                    precoSSR={29.90}
+                    precoSSR={29.99}
                     rotaSSR='/produtos/xicara'
                 />
             </ScrollView>
