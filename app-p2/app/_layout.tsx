@@ -9,14 +9,14 @@ export default function RootStackLayout(){
         >
             <Stack.Screen name="index"
             options={{
-                headerShown: true,
+                headerShown: false,
             }}
             
             />
 
             <Stack.Screen name="auth/index"
             options={{
-                headerShown: true,
+                headerShown: false,
             }}
             
             />
