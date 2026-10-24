@@ -22,10 +22,12 @@ export default function RootStackLayout(){
             />
             <Stack.Screen name="produtos/xicara"
             options={{
-                headerShown: true,
+                headerShown: false,
             }}
             />
-            
+            <Stack.Screen
+
+/>
         </Stack>
     )
 }

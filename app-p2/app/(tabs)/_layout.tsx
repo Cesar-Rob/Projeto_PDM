@@ -5,6 +5,7 @@ import Feather from '@expo/vector-icons/Feather';
 export default function RootTabsLayout() {
 
     return (
+        
         <Tabs screenOptions={{
             tabBarStyle: {
                 justifyContent: 'center',
@@ -55,5 +56,6 @@ export default function RootTabsLayout() {
                 }}
             />
         </Tabs>
+        
     )
 }
