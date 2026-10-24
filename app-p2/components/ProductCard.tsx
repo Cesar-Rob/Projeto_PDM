@@ -23,7 +23,7 @@ export default function ProductCard({ imagemSSR, nomeSSR, textoSSR, precoSSR, ro
                 <Text style={styles.nome} numberOfLines={1}>{nomeSSR}</Text>
                 <Text style={styles.texto} numberOfLines={2}>{textoSSR}</Text>
                 <Text style={styles.preco}>R$ {precoSSR}</Text>
-                
+
                 <TouchableOpacity style={styles.botao} onPress={() => router.push(rotaSSR)}>
                     <Text style={styles.textoBotao}>Saber Mais</Text>
                 </TouchableOpacity>
@@ -34,36 +34,33 @@ export default function ProductCard({ imagemSSR, nomeSSR, textoSSR, precoSSR, ro
 
 const styles = StyleSheet.create({
     container: {
-        flexDirection: 'row',
+        width: '48%',
         backgroundColor: '#E8D9B8',
         borderRadius: 10,
-        padding: 15,
-        alignItems: 'center',
+        padding: 12,
         marginBottom: 15,
     },
     imagem: {
-        width: 110,
-        height: 110,
+        width: '100%',
+        aspectRatio: 1,
         borderRadius: 10,
     },
     infoContainer: {
-        flex: 1,
-        marginLeft: 15,
-        justifyContent: 'center',
+        marginTop: 10,
     },
     nome: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: 'bold',
         color: '#000',
         marginBottom: 4,
     },
     texto: {
-        fontSize: 14,
+        fontSize: 13,
         color: '#666',
         marginBottom: 8,
     },
     preco: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: 'bold',
         color: '#000',
         marginBottom: 10,
