@@ -20,7 +20,7 @@ export default function LayoutBase() {
             >
 
                 <View>
-                    <View style={styles.header}>
+                    {/* <View style={styles.header}>
                         <TouchableOpacity style={styles.iconeBotao} onPress={() => navigation.goBack()}>
                             <Text style={styles.iconBot}>‹</Text>
                         </TouchableOpacity>
@@ -29,7 +29,7 @@ export default function LayoutBase() {
                         <TouchableOpacity style={styles.iconeBotao}>
                             <Text style={styles.iconBot}>♡</Text>
                         </TouchableOpacity>
-                    </View>
+                    </View> */}
                     <View style={styles.container1}>
                         <Image
                             source={{ uri: imagemSSR }}
