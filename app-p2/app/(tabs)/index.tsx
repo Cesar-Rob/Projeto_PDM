@@ -22,11 +22,11 @@ export default function Home() {
                     rotaSSR='/produtos/xicara'
                 />
                 <ProductCard
-                    imagemSSR='https://images.tcdn.com.br/img/img_prod/608666/antiga_xicara_de_cafe_porcelana_vista_alegre_creme_e_ouro_20571_1_ec2e798fb565d07ea4b4501327c447ef.jpg'
-                    nomeSSR='Xícara de Café'
-                    textoSSR='Uma bela xícara de café feita de porcelana.'
-                    precoSSR={29.99}
-                    rotaSSR='/produtos/xicara'
+                    imagemSSR='https://i.pinimg.com/736x/54/4f/ba/544fba56798905a1a2587a8fd13d8d84.jpg'
+                    nomeSSR='Espelho da Barbie'
+                    textoSSR='Um épico espelho da Barbie.'
+                    precoSSR={199.99}
+                    rotaSSR='/produtos/espelho'
                 />
                 </View>
                 
