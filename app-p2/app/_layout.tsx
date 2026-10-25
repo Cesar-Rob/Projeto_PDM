@@ -1,6 +1,6 @@
-import { Stack } from "expo-router";
+import { Stack, useRouter } from "expo-router";
 import Feather from '@expo/vector-icons/Feather';
-import { useRouter } from "expo-router";
+import { TouchableOpacity } from "react-native";
 export default function RootStackLayout() {
     const router = useRouter();
     return (
@@ -27,8 +27,8 @@ export default function RootStackLayout() {
                     title: '',
                     headerShown: true,
                     headerStyle: { backgroundColor: '#F7EFE1' },
-                    headerLeft: () => <Feather name="chevron-left" size={24} style={{ marginLeft: 20 }} onPress={() => router.back()} />,
-                    headerRight: () => <Feather name="heart" size={24} style={{ marginRight: 20 }} />
+                    headerLeft: () => <TouchableOpacity><Feather name="chevron-left" size={24} style={{ marginLeft: 20 }} onPress={() => router.back()} /> </TouchableOpacity>,
+                    headerRight: () =><TouchableOpacity> <Feather name="heart" size={24} style={{ marginRight: 20 }} /> </TouchableOpacity> 
                 }}
             />
             <Stack.Screen name="produtos/espelho"
@@ -36,8 +36,8 @@ export default function RootStackLayout() {
                     title: '',
                     headerShown: true,
                     headerStyle: { backgroundColor: '#F7EFE1' },
-                    headerLeft: () => <Feather name="chevron-left" size={24} style={{ marginLeft: 20 }} onPress={() => router.back()} />,
-                    headerRight: () => <Feather name="heart" size={24} style={{ marginRight: 20 }} />
+                    headerLeft: () => <TouchableOpacity><Feather name="chevron-left" size={24} style={{ marginLeft: 20 }} onPress={() => router.back()} /> </TouchableOpacity>,
+                    headerRight: () =><TouchableOpacity> <Feather name="heart" size={24} style={{ marginRight: 20 }} /> </TouchableOpacity> 
                 }}
             />
             <Stack.Screen />
