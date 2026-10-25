@@ -63,6 +63,22 @@ export default function Home() {
                     rotaSSR='/produtos/relogio'
                 />
                 </View>
+                <View style={{flexDirection:'row', gap:5}}>
+                    <ProductCard
+                    imagemSSR='https://i.pinimg.com/736x/31/63/16/316316316218a66a8db67e675099ec4f.jpg'
+                    nomeSSR='Bule de Chá'
+                    textoSSR='Bule de Chá em Porcelana Clássica'
+                    precoSSR={0}
+                    rotaSSR='/produtos/bule'
+                />
+                <ProductCard
+                    imagemSSR=''
+                    nomeSSR=''
+                    textoSSR=''
+                    precoSSR={0}
+                    rotaSSR='/produtos/album'
+                />
+                </View>
                 {/* <View style={{flexDirection:'row', gap:5}}>
                     <ProductCard
                     imagemSSR=''
