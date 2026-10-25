@@ -30,6 +30,56 @@ export default function Home() {
                 />
                 </View>
                 
+                <View style={{flexDirection:'row', gap:5}}>
+                    <ProductCard
+                    imagemSSR='https://down-br.img.susercontent.com/file/293f69688c3de12ac3fb59383fa460dd'
+                    nomeSSR='Fita Cassete Guns N Roses'
+                    textoSSR='Appetite for Destruction - Clássico do Rock'
+                    precoSSR={0}
+                    rotaSSR='/produtos/fitak7'
+                />
+                <ProductCard
+                    imagemSSR='https://static.wixstatic.com/media/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg/v1/fill/w_647,h_466,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg'
+                    nomeSSR='Álbum de Figurinhas '
+                    textoSSR='Oficial Copa do Mundo FIFA 2026'
+                    precoSSR={399.90}
+                    rotaSSR='/produtos/album'
+                />
+                </View>
+
+                <View style={{flexDirection:'row', gap:5}}>
+                    <ProductCard
+                    imagemSSR='https://static.wixstatic.com/media/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg/v1/fill/w_768,h_553,al_c,q_85,usm_0.66_1.00_0.01/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg'
+                    nomeSSR='Jogo Super Mario'
+                    textoSSR='Mario Paint Super Nintendo Original'
+                    precoSSR={189.90}
+                    rotaSSR='/produtos/jogo'
+                />
+                <ProductCard
+                    imagemSSR='https://i.pinimg.com/736x/9d/29/b5/9d29b5a5fdf5e400be9c1597f6e33fe3.jpg'
+                    nomeSSR='Relógio de Bolso'
+                    textoSSR='Relógio de Bolso Clássico em Bronze'
+                    precoSSR={236.99}
+                    rotaSSR='/produtos/relogio'
+                />
+                </View>
+                {/* <View style={{flexDirection:'row', gap:5}}>
+                    <ProductCard
+                    imagemSSR=''
+                    nomeSSR=''
+                    textoSSR=''
+                    precoSSR={0}
+                    rotaSSR='/produtos/album'
+                />
+                <ProductCard
+                    imagemSSR=''
+                    nomeSSR=''
+                    textoSSR=''
+                    precoSSR={0}
+                    rotaSSR='/produtos/album'
+                />
+                </View> */}
+                
             </ScrollView>
 
 
