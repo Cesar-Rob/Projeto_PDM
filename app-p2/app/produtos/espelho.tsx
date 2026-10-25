@@ -1,6 +1,5 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from "react-native";
 import Feather from '@expo/vector-icons/Feather';
-import { useNavigation } from '@react-navigation/native';
 
 export default function LayoutBase() {
 
@@ -9,7 +8,7 @@ export default function LayoutBase() {
     let descricaoSSR: string = "Este espelho da Barbie é feito de vidro de alta qualidade, com um design elegante e icônico. Perfeito para se admirar com estilo.";
     let precoSSR: number = 199.99;
     let imagemSSR: string = "https://i.pinimg.com/736x/76/6c/d9/766cd98caf8a834603ba287844bd5400.jpg";
-    const navigation = useNavigation()
+
 
     return (
 
@@ -20,16 +19,6 @@ export default function LayoutBase() {
             >
 
                 <View>
-                    {/* <View style={styles.header}>
-                        <TouchableOpacity style={styles.iconeBotao} onPress={() => navigation.goBack()}>
-                            <Text style={styles.iconBot}>‹</Text>
-                        </TouchableOpacity>
-
-
-                        <TouchableOpacity style={styles.iconeBotao}>
-                            <Text style={styles.iconBot}>♡</Text>
-                        </TouchableOpacity>
-                    </View> */}
                     <View style={styles.container1}>
                         <Image
                             source={{ uri: imagemSSR }}

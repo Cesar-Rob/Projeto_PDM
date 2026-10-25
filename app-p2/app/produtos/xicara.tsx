@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from "react-native";
 import Feather from '@expo/vector-icons/Feather';
-import { useNavigation } from '@react-navigation/native';
+
 
 export default function LayoutBase() {
 
     let nomeSSR: string = "Xícara de Porcelana";
     let subTituloSSR: string = "Xícara de Porcelana com fios de ouro";
-    let descricaoSSR: string = "Esta xícara de café é feita de porcelana de alta qualidade, com um design elegante e detalhes em creme e ouro. Perfeita para apreciar seu café com estilo.";
+    let descricaoSSR: string = "Esta xícara é feita de porcelana de alta qualidade. Perfeita para apreciar seu café com estilo e relaxar enquanto observa os pobres, é babado.";
     let precoSSR: number = 29.99;
     let imagemSSR: string = "https://images.tcdn.com.br/img/img_prod/608666/antiga_xicara_de_cafe_porcelana_vista_alegre_creme_e_ouro_20571_1_ec2e798fb565d07ea4b4501327c447ef.jpg";
-    const navigation = useNavigation()
+
 
     return (
 
@@ -20,21 +20,11 @@ export default function LayoutBase() {
             >
 
                 <View>
-                    {/* <View style={styles.header}>
-                        <TouchableOpacity style={styles.iconeBotao} onPress={() => navigation.goBack()}>
-                            <Text style={styles.iconBot}>‹</Text>
-                        </TouchableOpacity>
-
-
-                        <TouchableOpacity style={styles.iconeBotao}>
-                            <Text style={styles.iconBot}>♡</Text>
-                        </TouchableOpacity>
-                    </View> */}
                     <View style={styles.container1}>
                         <Image
                             source={{ uri: imagemSSR }}
                             style={styles.imagem}
-                            
+                            resizeMode="contain"
                         />
                     </View>
                     <View style={styles.container2}>
