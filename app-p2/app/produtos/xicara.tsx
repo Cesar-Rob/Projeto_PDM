@@ -7,7 +7,7 @@ export default function LayoutBase() {
     let nomeSSR: string = "Xícara de Porcelana";
     let subTituloSSR: string = "Xícara de Porcelana com fios de ouro";
     let descricaoSSR: string = "Esta xícara é feita de porcelana de alta qualidade. Perfeita para apreciar seu café com estilo e relaxar enquanto observa os pobres, é babado.";
-    let precoSSR: number = 29.99;
+    let precoSSR: number = 89.99;
     let imagemSSR: string = "https://images.tcdn.com.br/img/img_prod/608666/antiga_xicara_de_cafe_porcelana_vista_alegre_creme_e_ouro_20571_1_ec2e798fb565d07ea4b4501327c447ef.jpg";
 
 

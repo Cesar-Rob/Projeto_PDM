@@ -26,7 +26,7 @@ export default function Home() {
                     nomeSSR='Espelho da Barbie'
                     textoSSR='Um épico espelho da Barbie.'
                     precoSSR={199.99}
-                    rotaSSR='/produtos/espelho'
+                    rotaSSR='/produtos/fitak7'
                 />
                 </View>
                 
