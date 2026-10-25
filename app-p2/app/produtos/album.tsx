@@ -34,7 +34,7 @@ export default function LayoutBase() {
                         </View>
                         <View style={{ flexDirection: 'row', marginRight: 10, alignItems: 'center', }}>
                             <Text style={styles.starIcon}>★</Text>
-                            <Text style={styles.ratingText}>5.0 <Text style={styles.ratingCount}>(1000)</Text></Text>
+                            <Text style={styles.ratingText}>3.0 <Text style={styles.ratingCount}>(1070)</Text></Text>
                         </View>
 
                     </View>

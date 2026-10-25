@@ -5,7 +5,7 @@ export default function LayoutBase() {
 
     let nomeSSR: string = "Espelho da Barbie";
     let subTituloSSR: string = "Espelho da Barbie Castelo de Diamante";
-    let descricaoSSR: string = "Este espelho da Barbie é feito de vidro de alta qualidade, com um design elegante e icônico. Perfeito para se admirar com estilo.";
+    let descricaoSSR: string = "Este espelho da Barbie é feito de vidro de alta qualidade, com um design elegante e icônico. Perfeito para se admirar com estilo enquanto farma muita aura.";
     let precoSSR: number = 199.99;
     let imagemSSR: string = "https://i.pinimg.com/736x/76/6c/d9/766cd98caf8a834603ba287844bd5400.jpg";
 
