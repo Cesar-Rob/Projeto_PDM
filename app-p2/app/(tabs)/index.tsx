@@ -35,11 +35,11 @@ export default function Home() {
                     imagemSSR='https://down-br.img.susercontent.com/file/293f69688c3de12ac3fb59383fa460dd'
                     nomeSSR='Fita Cassete Guns N Roses'
                     textoSSR='Appetite for Destruction - Clássico do Rock'
-                    precoSSR={0}
+                    precoSSR={189.90}
                     rotaSSR='/produtos/fitak7'
                 />
                 <ProductCard
-                    imagemSSR='https://static.wixstatic.com/media/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg/v1/fill/w_647,h_466,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg'
+                    imagemSSR='https://static.wixstatic.com/media/9b7d68_022281f2b876493990ebc71b540c9be5~mv2.jpg/v1/fill/w_623,h_466,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b7d68_022281f2b876493990ebc71b540c9be5~mv2.jpg'
                     nomeSSR='Álbum de Figurinhas '
                     textoSSR='Oficial Copa do Mundo FIFA 2026'
                     precoSSR={399.90}
@@ -68,16 +68,16 @@ export default function Home() {
                     imagemSSR='https://i.pinimg.com/736x/31/63/16/316316316218a66a8db67e675099ec4f.jpg'
                     nomeSSR='Bule de Chá'
                     textoSSR='Bule de Chá em Porcelana Clássica'
-                    precoSSR={0}
+                    precoSSR={150.25}
                     rotaSSR='/produtos/bule'
                 />
-                <ProductCard
+                {/* <ProductCard
                     imagemSSR=''
                     nomeSSR=''
                     textoSSR=''
                     precoSSR={0}
                     rotaSSR='/produtos/album'
-                />
+                /> */}
                 </View>
                 {/* <View style={{flexDirection:'row', gap:5}}>
                     <ProductCard

@@ -13,7 +13,7 @@ export default function Perfil() {
         </View>
         <View style={styles.userInfo}>
           <Text style={styles.userName}>Roberto Carlos</Text>
-          <Text style={styles.userRole}>COLECIONADOR MEGACHATO DESDE 2026</Text>
+          <Text style={styles.userRole}>COLECIONADOR DESDE 2026</Text>
         </View>
       </View>
 
