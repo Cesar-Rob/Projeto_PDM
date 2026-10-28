@@ -6,7 +6,7 @@ export default function Perfil() {
 
   return (
     <ScrollView style={styles.container}>
-      {/* Header Profile Section */}
+      {/* Header */}
       <View style={styles.header}>
         <View style={styles.avatar}>
           <Text style={styles.avatarText}>RC</Text>
@@ -17,7 +17,7 @@ export default function Perfil() {
         </View>
       </View>
 
-      {/* Stats Section */}
+      {/* informações */}
       <View style={styles.statsContainer}>
         <View style={styles.statBox}>
           <Text style={styles.statNumber}>7</Text>
@@ -33,7 +33,7 @@ export default function Perfil() {
         </View>
       </View>
 
-      {/* Menu Options Section */}
+      {/* opções */}
       <View style={styles.menuContainer}>
         <TouchableOpacity style={styles.menuItem}>
           <View style={styles.menuItemLeft}>
@@ -102,10 +102,10 @@ export default function Perfil() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F7EFE1', // Light beige background
+    backgroundColor: '#F7EFE1', 
   },
   header: {
-    backgroundColor: '#4E3424', // Dark brown
+    backgroundColor: '#4E3424', 
     flexDirection: 'row',
     alignItems: 'center',
     padding: 20,
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     borderRadius: 30,
-    backgroundColor: '#C8933B', // Goldish color
+    backgroundColor: '#C8933B', 
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 2,
