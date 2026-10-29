@@ -8,7 +8,7 @@ export default function LayoutBase() {
     let subTituloSSR: string = "Álbum de Figurinhas Oficial Copa do Mundo FIFA 2026";
     let descricaoSSR: string = "O álbum oficial da Copa do Mundo de 2026 traz páginas exclusivas para colecionar os maiores craques do futebol mundial. Feito com material resistente e acabamento premium, é o item perfeito para os apaixonados por futebol eternizarem este torneio histórico. ";
     let precoSSR: number = 399.99;
-    let imagemSSR: string = "https://static.wixstatic.com/media/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg/v1/fill/w_647,h_466,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b7d68_78152821d27a4d9291f81e17c222c0c6~mv2.jpg";
+    let imagemSSR: string = "https://static.wixstatic.com/media/9b7d68_022281f2b876493990ebc71b540c9be5~mv2.jpg/v1/fill/w_623,h_466,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b7d68_022281f2b876493990ebc71b540c9be5~mv2.jpg";
 
 
     return (
